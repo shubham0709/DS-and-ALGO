@@ -1,10 +1,10 @@
-let nums = [-4, -4, -3];
+let nums = [-14, -4, -3, 0, 4, 5];
 let ans = [];
 nums.map((x, i) => {
     nums[i] = x * x;
 })
 nums.push(Infinity);
-console.log(nums);
+//console.log(nums);
 let idx = -1;
 for (let i = 0; i < nums.length; i++) {
     if (nums[i] < nums[i + 1]) {

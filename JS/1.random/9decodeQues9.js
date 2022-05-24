@@ -1,4 +1,4 @@
-var str = 'a 5 b 1 3 c 2 z a 1'
+var str = 'a b c d 1'
 str = str.split(' ').join('');
 var ans = ''
 for (let i = 0; i < str.length;) {

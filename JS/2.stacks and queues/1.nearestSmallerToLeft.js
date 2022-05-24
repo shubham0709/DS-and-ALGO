@@ -16,3 +16,10 @@ function find(arr, n) {
     }
     console.log(ans);
 }
+
+// eaaabbddddde
+// ee
+// ""
+// qwe
+ // qwe
+ // qwe
